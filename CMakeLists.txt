@@ -9,5 +9,8 @@ set(BUILD_SHARED_LIBS OFF)
 
 add_subdirectory(blehware-injector)
 add_subdirectory(blehware-module)
+add_subdirectory(blehware-terminal)
+
+add_dependencies(blehware-injector blehware-module)
 
 add_subdirectory(dependencies)
