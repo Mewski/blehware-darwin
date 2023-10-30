@@ -27,6 +27,3 @@ set_target_properties(blehware-module PROPERTIES
 # target_link_libraries(blehware-module PRIVATE Luau.Compiler)
 # target_link_libraries(blehware-module PRIVATE Luau.VM)
 # target_include_directories(blehware-module PRIVATE ${ROOT_DIR}/dependencies/submodules/luau/VM/src)
-
-# Dobby
-target_link_libraries(blehware-module PRIVATE dobby)

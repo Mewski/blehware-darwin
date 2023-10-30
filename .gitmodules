@@ -1,6 +1,3 @@
 [submodule "dependencies/submodules/luau"]
 	path = dependencies/submodules/luau
 	url = https://github.com/luau-lang/luau.git
-[submodule "dependencies/submodules/Dobby"]
-	path = dependencies/submodules/Dobby
-	url = https://github.com/jmpews/Dobby.git

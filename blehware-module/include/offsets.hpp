@@ -5,7 +5,7 @@
 namespace blehware {
     namespace addresses {
         inline namespace virtual_machine {
-            constexpr std::uintptr_t GET_TASK_SCHEDULER = 0x10285d0a4;
+            constexpr std::uintptr_t GET_TASK_SCHEDULER = 0x100f70e8c;
             constexpr std::uintptr_t LUAU_LOAD = 0x100873a70;
             constexpr std::uintptr_t TASK_DEFER = 0x10081c4bc;
         }
